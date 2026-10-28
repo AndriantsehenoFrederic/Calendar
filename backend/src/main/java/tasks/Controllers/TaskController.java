@@ -1,8 +1,10 @@
-package tasks;
+package tasks.Controllers;
 
 import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
+import tasks.Task;
+import tasks.Repository.TaskRepository;
 
 @RestController
 @RequestMapping("api/tasks")
